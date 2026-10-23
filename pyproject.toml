@@ -1,0 +1,12 @@
+[project]
+name = "dbt-databricks-learning"
+version = "0.1.0"
+description = "Learning dbt with Databricks"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.12.6",
+    "dbt-databricks>=1.10.9",
+]
+
+[tool.uv]
+package = false
